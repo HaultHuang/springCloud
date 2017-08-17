@@ -1,0 +1,17 @@
+package org.eureka.server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
+import org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.context.annotation.Bean;
+
+@EnableEurekaServer
+@SpringBootApplication
+public class EurekaServerApplication {
+
+	public static void main(String[] args) {
+		new SpringApplication(EurekaServerApplication.class).run(args);
+	}
+}

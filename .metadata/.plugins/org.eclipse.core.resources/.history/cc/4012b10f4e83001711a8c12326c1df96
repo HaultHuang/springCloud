@@ -1,0 +1,5 @@
+package org.provider.service;
+
+public class ProviderApplication {
+
+}

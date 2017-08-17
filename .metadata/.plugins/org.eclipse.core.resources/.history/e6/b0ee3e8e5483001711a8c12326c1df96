@@ -1,0 +1,5 @@
+package org.config.server;
+
+public class ConfigApplication {
+
+}

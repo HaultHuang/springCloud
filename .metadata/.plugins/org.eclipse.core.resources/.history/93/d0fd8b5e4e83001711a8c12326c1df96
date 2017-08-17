@@ -1,0 +1,11 @@
+package org.provider.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DcController {
+
+	public String test() {
+		return "test";
+	}
+}
